@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+/* .container input, #gender {
+	width: 100px;
+} */
+#btn {
+	padding: 10px;
+	border-radius: 15px;
+	background-color: rgb(92, 224, 92);
+	color: #fff;
+}
+#btn:hover {
+	background-color: rgb(124, 192, 124);
+}
+
+#resultLabel {
+	display: flex;
+}
+#workContainer {
+	display: flex;
+}

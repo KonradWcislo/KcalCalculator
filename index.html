@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Kalkulator:</h1>
+    <h2>ppm <input onchange="choice()" id="ppm" type="radio" name="radioInput" checked></h2>
+    <h2>cpm <input onchange="choice()" id="cpm" type="radio" name="radioInput"></h2>
+    <div class="container">
+        <label for="gender">Płeć</label>
+        <select id="gender" name="gender">
+            <option id="womanOption">Kobieta</option>
+            <option id="manOption">Mężczyzna</option>
+        </select>
+
+        <label for="bodyWeight">Masa ciała</label> <input id="bodyWeight" type="number">
+
+        <label for="bodyHeight">Wzrost</label> <input id="bodyHeight" type="number">
+
+        <label for="age">Wiek</label> <input id="age" type="number">
+        <div id="work"></div>
+
+
+        <div id="resultLabel">WYNIK:<div id="result"></div>
+        </div>
+
+
+        <button id="btn">OBLICZ</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
